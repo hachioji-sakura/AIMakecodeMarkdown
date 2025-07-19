@@ -10,16 +10,15 @@
 
 # Activity 2 – Paterns, paterns, paterns...
 
-## Step 1
-Now that we have collected a large amount of photographic data with different coat patterns, from a few different ocelots, we can code a dataset. 
- 
-## Step 2 
-Start by using a `||Datasets: make dataset||` coding block, set to `||Datasets: historical||`. Inside of that place all of the `||Input: trap camera data||`
-, that was just gathered. 
+## ステップ 1
+異なる毛皮のパターンを持ついくつかのオセロットから、大量の写真データを収集したので、データセットをコーディングできます。
 
-## Step 3 
-As a last step we need to extract the patterns on the ocelots coats from the photographic data. Use a `||Datasets: extract patterns||` coding block.
-Now when you run the code, previews of the ocelots patterns will be compiled. 
+## ステップ 2
+`||Datasets: make dataset||` コーディングブロックを使用して、`||Datasets: historical||` に設定します。その中に、収集したすべての `||Input: trap camera data||` を配置します。
+
+## ステップ 3
+最後のステップとして、写真データからオセロットの毛皮のパターンを抽出する必要があります。`||Datasets: extract patterns||` コーディングブロックを使用してください。
+コードを実行すると、オセロットのパターンのプレビューがコンパイルされます。
 
 ```ghost
 Input.trap1_PR()
@@ -30,5 +29,5 @@ Datasets.setOfData_PR(datasetType.historical, function() {})
 ```
 
 ```package
-aicustomblocks=github:fountainstudios/AICustomBlocks
+aicustomblocks=github:hachioji-sakura/AICustomBlocks
 ```
