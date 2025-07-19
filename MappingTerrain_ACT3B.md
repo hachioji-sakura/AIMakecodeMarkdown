@@ -8,19 +8,16 @@
 ### @explicitHints true
 ### @flyoutOnly 0
 
-# Activity 3 – Detecting Anomalies.
+# Activity 3 – 異常を検出する
 
-## Step 1
-In this Activity, you have to use the dataset that you made, inside a machine learning algorithm. The algorithm needs to search for anomalies in the dataset
-and outline them on the map. First use an `||AI: machine learning||` coding block inside of a `||loops: on start||` coding block.
+## ステップ 1
+このアクティビティでは、作成したデータセットを機械学習アルゴリズムの中で使用する必要があります。このアルゴリズムはデータセット内の異常を検索し、地図上でそれらを特定する必要があります。まず、`||loops: 最初だけ||`コーディングブロックの中に`||AI: 機械学習||`コーディングブロックを使用してください。
 
-## Step 2
-Inside of that, place an `||Datasets: input dataset||` coding block. Then place an `||AI: analyze data||` coding block.
+## ステップ 2
+その中に、`||Datasets: データセット入力||`コーディングブロックを配置してください。その後、`||AI: データを解析||`コーディングブロックを配置してください。
 
-## Step 3
-We have now imported and analyzed the data, the algorithm should have a result. However, so that we can see the result on the map place an 
-`||Output: show locations||` coding block.
-
+## ステップ 3
+データをインポートして解析したので、アルゴリズムには結果があるはずです。しかし、地図上で結果を確認できるように、`||Output: 位置を表示||`コーディングブロックを配置してください。
 
 ```ghost
 Datasets.input_MTB()
@@ -30,5 +27,5 @@ AI.ml_MTB(function() {})
 ```
 
 ```package
-aicustomblocks=github:fountainstudios/AICustomBlocks
+aicustomblocks=github:hachioji-sakura/AICustomBlocks
 ```

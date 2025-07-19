@@ -8,23 +8,21 @@
 ### @explicitHints true
 ### @flyoutOnly 0
 
-# Activity 3 – Future proofing.
+# Activity 3 – 未来の備え
 
-## Step 1
-Now that we have a steady data stream coming in, the research about the impact of climate change on these reefs can start. However, in 
-the event that a sensor fails we want to use AI to make the reach the sensors and repair them automatically. 
-This is possible using **autonomous navigation** with the live data that we are collecting.
+## ステップ 1
+安定したデータストリームが入ってくるようになったので、これらのサンゴ礁に対する気候変動の影響に関する研究を開始することができます。しかし、センサーが故障した場合に備えて、AIを使用してセンサーに到達し、自動的に修理することを求めています。
+これは、私たちが収集している**リアルタイムデータ**を使用した**自律ナビゲーション**によって可能です。
 
-## Step 2 
-Use a `||AI: machine learning||` coding block inside of an `||loops: on start||` coding block.
-Inside of this block, place a `||Datasets: input dataset||` coding block, set to `||datasets: live dataset||`.
-After which, place a `||AI: analyze terrain data||` coding block. 
+## ステップ 2 
+`||loops: 最初だけ||`コーディングブロックの中に`||AI: 機械学習||`コーディングブロックを使用してください。
+このブロック内に、`||datasets: リアルタイムデータセット||`に設定された`||Datasets: データセット入力||`コーディングブロックを配置してください。
+その後、`||AI: 地形データを解析||`コーディングブロックを配置してください。
 
-## Step 3
-Then place a `||AI: generate routes||` coding block. 
-Now, when run, the AI will generate routes for the Agent to take, and not collide with different corals. 
-We will also be able to see the terrain, of the ocean floor, on a Map. 
-
+## ステップ 3
+その後、`||AI: ルートを生成||`コーディングブロックを配置してください。
+実行すると、AIはエージェントが進むルートを生成し、さまざまなサンゴと衝突しないようにします。
+また、海底の地形を地図上で確認することもできます。
 
 ```ghost
 AI.analyze_OO()
@@ -34,5 +32,5 @@ AI.genRoutes_OO()
 ```
 
 ```package
-aicustomblocks=github:fountainstudios/AICustomBlocks
+aicustomblocks=github:hachioji-sakura/AICustomBlocks
 ```

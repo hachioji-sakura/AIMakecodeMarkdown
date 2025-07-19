@@ -1,6 +1,6 @@
 ### @explicitHints true
 ### @hideIteration true 
-# Pumpkin or melon? 
+# カボチャかメロンか？ 
 
 ```python
 agent.move(FORWARD, 5)
@@ -25,5 +25,5 @@ while True:
     pass
 ```
 
-## Step 1
-Make the Agent move forward to the gold block while breaking the melons but leaving the pumpkins alone. 
+## ステップ 1
+エージェントを金ブロックまで前進させ、メロンを壊しながらもカボチャはそのままにしてください。 

@@ -1,10 +1,10 @@
 ### @explicitHints true
 ### @hideIteration true 
 
-#Testing it out.
+# テストしてみる
 
-## Step 1
-Agent moves test V2
+## ステップ 1
+エージェント移動テスト V2
 
 ```ghost
 Test.testMoves()

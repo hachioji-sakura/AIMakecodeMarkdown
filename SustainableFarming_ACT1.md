@@ -1,4 +1,4 @@
-# Activity 1 – Whithering crops.
+# Activity 1 – しおれる作物
 
 ### @explicitHints true
 ### @hideIteration true 
@@ -8,9 +8,7 @@
 player.say
 ```
 
-## Step 1
-We are in a village in a remote area. The people in the village have not been able to get successful yields while farming, 
-as they do not know the best locations to farm. 
-That is why we are here, using AI and predictive analysis we will be able to locate plots of land that are best 
-suited for the crops that they grow. However, before we can do that, we need to gather satellite data of the area. 
-Place the satellite beacons on the **gold** blocks around the village. **No coding is required for this Activity.**
+## ステップ 1
+私たちは辺境の村にいます。村の人々は、最適な農地の場所を知らないため、農業で成功した収穫を得ることができませんでした。
+そのため私たちがここにいるのです。AIと予測分析を使用して、彼らが栽培する作物に最も適した土地の区画を特定することができます。しかし、それを行う前に、この地域の衛星データを収集する必要があります。
+村の周りの**金**ブロックに衛星ビーコンを設置してください。**このアクティビティにはコーディングは必要ありません。**

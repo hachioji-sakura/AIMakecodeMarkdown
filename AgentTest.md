@@ -7,5 +7,5 @@
 ### @flyoutOnly 1
 ### @hideIteration true 
 ### @explicitHints 1
-# 5. Eliminate All Hazards.
+# 5. すべてのハザードを除去する
 ## Introduction step @unplugged

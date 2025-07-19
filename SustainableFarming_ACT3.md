@@ -8,20 +8,20 @@
 ### @explicitHints true
 ### @flyoutOnly 0
 
-# Activity 3 – Predictive analysis.
+# Activity 3 – 予測分析
 
-## Step 1
-We now need to code the AI that is going to find the best planting locations. 
-You will need to use the **current** dataset that you compiled in the last Activity 
-and **compare** it against a **historical** dataset that the satellite station already has.
+## ステップ 1
+最適な植栽場所を見つけるAIをコーディングする必要があります。
+前のアクティビティでコンパイルした**現在の**データセットを使用し、
+衛星ステーションがすでに持っている**過去の**データセットと**比較**する必要があります。
 
-## Step 2
-First use a `||AI: semi-supervised machine learning||` coding block and place an `||Datasets: input datasets||` coding block inside.
-After that, place a `||Datasets: compare datasets||` coding block. Set to **current** dataset and then **historical**.
+## ステップ 2
+まず、`||AI: 半教師あり機械学習||`コーディングブロックを使用し、その中に`||Datasets: データセット入力||`コーディングブロックを配置してください。
+その後、`||Datasets: データセットを比較||`コーディングブロックを配置してください。**現在の**データセットと**過去の**データセットに設定してください。
 
-## Step 3
-Then place a `||AI: run predictive analysis||` coding block, followed by a `||Output: find best farming locations||` coding block. 
-Now when you run the code the AI will find and light up the best farming locations.
+## ステップ 3
+その後、`||AI: 予測分析を実行||`コーディングブロックを配置し、続いて`||Output: 最適な農地を発見||`コーディングブロックを配置してください。
+コードを実行すると、AIが最適な農地を発見し、それらを照らし出します。
 
 ```ghost
 Datasets.compare_SF()
@@ -32,5 +32,5 @@ Output.locateFarm_SF()
 ```
 
 ```package
-aicustomblocks=github:fountainstudios/AICustomBlocks
+aicustomblocks=github:hachioji-sakura/AICustomBlocks
 ```

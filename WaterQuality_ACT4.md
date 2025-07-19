@@ -1,4 +1,4 @@
-# Activity 4 – Cleaning up.
+# Activity 4 – 清掃作業
 
 ### @explicitHints true
 ### @hideIteration true 
@@ -8,8 +8,7 @@
 player.say
 ```
 
-## Step 1
-Now that the AI has located the sources where the pollution is coming from, we need to make sure that they are correct. If they are, 
-then we need to stop the pollution coming from these locations. 
-Get into the boat to go to each of the locations, and place a banner on the gold block to close them off. 
-**No coding is required for this Activity.**
+## ステップ 1
+AIが汚染の発生源となっている場所を特定したので、それらが正しいかどうかを確認する必要があります。正しい場合、これらの場所からの汚染を停止する必要があります。
+ボートに乗って各場所に行き、金ブロックにバナーを設置してそれらを閉鎖してください。
+**このアクティビティにはコーディングは必要ありません。**

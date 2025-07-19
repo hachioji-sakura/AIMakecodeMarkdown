@@ -8,18 +8,18 @@
 ### @explicitHints true
 ### @flyoutOnly 0
 
-# Activity 2 – Underwater data.
+# Activity 2 – 水中データ
 
-## Step 1
-Now that the sensors have been placed we need to make **one** live dataset that is going to hold all of the data from the **four** sensors.
-Once this is done we will be able to see and map what is going on beneath the surface of the water on the four monitors. 
+## ステップ 1
+センサーが設置されたので、**4つ**のセンサーからのデータをすべて保持する**1つ**のライブデータセットを作成する必要があります。
+これが完了すると、4つのモニターで水面下で何が起こっているかを確認し、マッピングできるようになります。
 
-## Step 2 
-First use a `||Datasets: make dataset||` coding block, inside of an `||loops: on start||` coding block.
-Set that block to be a `||Datasets: live||` dataset.
+## ステップ 2 
+まず、`||loops: 最初だけ||`コーディングブロックの中に`||Datasets: データセットを作成||`コーディングブロックを使用してください。
+そのブロックを`||Datasets: リアルタイムデータ||`データセットに設定してください。
 
-## Step 3
-Then place the `||Input: sensor data||`, inside of the dataset.
+## ステップ 3
+その後、データセット内に`||Input: センサーのデータ||`を配置してください。
 
 ```ghost
 Input.sensor1_OO()
@@ -30,5 +30,5 @@ Datasets.setOfData_OO(datasetType.historical, function() {})
 ```
 
 ```package
-aicustomblocks=github:fountainstudios/AICustomBlocks
+aicustomblocks=github:hachioji-sakura/AICustomBlocks
 ```

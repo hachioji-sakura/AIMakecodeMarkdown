@@ -1,9 +1,9 @@
 ### @explicitHints 1
 
-# Test - V5
+# テスト - V5
 
-## Step 1
-Test
+## ステップ 1
+テスト
 
 ```ghost
 Input.sensor1()

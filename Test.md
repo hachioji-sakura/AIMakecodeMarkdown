@@ -5,17 +5,17 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
-# 6. Alert the Team.
+# 6. チームに警告する
 
 ## Introduction step @unplugged
 
 ![Alert-team](/static/hour-of-code/alert.gif)
 
-# Alert the Team.
+# チームに警告する
 
-## Step 1
+## ステップ 1
 
-Drag the ``||hourOfCode:alert team||`` block inside the ``||hourOfCode:if hazard found||`` block, so that the team can be alerted.
+`||hourOfCode: チームに警告||`ブロックを`||hourOfCode: ハザードが発見された場合||`ブロックの中にドラッグして、チームに警告できるようにしてください。
 
 ```ghost
 hourOfCode.alertTeam()

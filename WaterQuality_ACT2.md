@@ -8,14 +8,13 @@
 ### @explicitHints true
 ### @flyoutOnly 0
 
-# Activity 2 – Straight from the tap.
+# Activity 2 – 蛇口から直接
 
-## Step 1
-Now that you have collected water samples from the surrounding rivers, code a **current** dataset with the water data from each of the locations.
+## ステップ 1
+周囲の川から水のサンプルを収集したので、各場所からの水のデータで**現在の**データセットをコーディングしてください。
 
-## Step 2 
-Start by using a `||Datasets: make dataset||` coding block, set to `||Datasets: current||`. Inside of that, place all of the `||Input: water data||`
-from each of the locations. 
+## ステップ 2 
+まず、`||Datasets: 現在の||`に設定された`||Datasets: データセットを作成||`コーディングブロックを使用してください。その中に、各場所からのすべての`||Input: 水データ||`を配置してください。
 
 ```ghost
 Input.waterData1_WQ()
@@ -25,5 +24,5 @@ Datasets.setOfData_WQ(datasetType.historical, function() {})
 ```
 
 ```package
-aicustomblocks=github:fountainstudios/AICustomBlocks
+aicustomblocks=github:hachioji-sakura/AICustomBlocks
 ```

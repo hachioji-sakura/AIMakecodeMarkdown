@@ -1,35 +1,35 @@
 # AIMakecodeMarkdown
-Markdown for Minecraft lessons.
+Minecraftレッスン用のMarkdown。
 
 
 
-> Open this page at [https://fountainstudios.github.io/makecodemarkdown/](https://fountainstudios.github.io/makecodemarkdown/)
+> このページを開く [https://fountainstudios.github.io/makecodemarkdown/](https://fountainstudios.github.io/makecodemarkdown/)
 
-## Use as Extension
+## 拡張機能として使用
 
-This repository can be added as an **extension** in MakeCode.
+このリポジトリは、MakeCodeで**拡張機能**として追加できます。
 
-* open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/fountainstudios/makecodemarkdown** and import
+* [https://minecraft.makecode.com/](https://minecraft.makecode.com/) を開く
+* **New Project** をクリック
+* 歯車メニューの下にある **Extensions** をクリック
+* **https://github.com/fountainstudios/makecodemarkdown** を検索してインポート
 
-## Edit this project ![Build status badge](https://github.com/fountainstudios/makecodemarkdown/workflows/MakeCode/badge.svg)
+## このプロジェクトを編集 ![Build status badge](https://github.com/fountainstudios/makecodemarkdown/workflows/MakeCode/badge.svg)
 
-To edit this repository in MakeCode.
+このリポジトリをMakeCodeで編集するには。
 
-* open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/fountainstudios/makecodemarkdown** and click import
+* [https://minecraft.makecode.com/](https://minecraft.makecode.com/) を開く
+* **Import** をクリックし、次に **Import URL** をクリック
+* **https://github.com/fountainstudios/makecodemarkdown** を貼り付けてインポートをクリック
 
-## Blocks preview
+## ブロックプレビュー
 
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
+この画像は、masterの最後のコミットからのブロックコードを示しています。
+この画像の更新には数分かかる場合があります。
 
 ![A rendered view of the blocks](https://github.com/fountainstudios/makecodemarkdown/raw/master/.github/makecode/blocks.png)
 
-#### Metadata (used for search, rendering)
+#### メタデータ（検索・レンダリング用）
 
 * for PXT/minecraft
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>

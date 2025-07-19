@@ -4,9 +4,9 @@
 player.say
 ```
 
-# Congratulations!
+# おめでとうございます！
 ## Introduction @unplugged
-Congratulations, you have finished the lesson!
+おめでとうございます、レッスンが完了しました！
 
-## Step 1 
-Congratulations, you have finished the lesson!
+## ステップ 1 
+おめでとうございます、レッスンが完了しました！

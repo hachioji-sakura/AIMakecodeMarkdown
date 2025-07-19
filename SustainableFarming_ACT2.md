@@ -8,19 +8,16 @@
 ### @explicitHints true
 ### @flyoutOnly 0
 
-# Activity 2 – Out of this world.
+# Activity 2 – この世のものではない
 
-## Step 1
-Now that we have placed all of the satellite beacons, we need to **control** the satellite and code a **current** dataset from the information 
-that is sent back.
+## ステップ 1
+すべての衛星ビーコンを設置したので、衛星を**制御**し、送り返される情報から**現在の**データセットをコーディングする必要があります。
 
-## Step 2 
-First use a `||Input: control satelite||` coding block, inside of an `||loops: on start||` coding block. Inside of that place a `||Datasets: make dataset||`
-coding block, and set that block to be a `||Datasets: current||` dataset.
+## ステップ 2 
+まず、`||loops: 最初だけ||`コーディングブロックの中に`||Input: 衛星を制御||`コーディングブロックを使用してください。その中に`||Datasets: データセットを作成||`コーディングブロックを配置し、そのブロックを`||Datasets: 現在の||`データセットに設定してください。
 
-## Step 2 
-Then place all of the `||Input: location satellite data||` inside. Now when run you will be able to see the satellite camera panning over the village 
-as its gathering data for the current dataset.
+## ステップ 2 
+その後、すべての`||Input: 位置の衛星データ||`を中に配置してください。実行すると、衛星カメラが現在のデータセットのデータを収集しながら村の上空をパンしているのを確認できます。
 
 ```ghost
 Input.beacon1_SF()
@@ -33,5 +30,5 @@ Datasets.setOfData_SF(datasetType.historical, function() {})
 ```
 
 ```package
-aicustomblocks=github:fountainstudios/AICustomBlocks
+aicustomblocks=github:hachioji-sakura/AICustomBlocks
 ```

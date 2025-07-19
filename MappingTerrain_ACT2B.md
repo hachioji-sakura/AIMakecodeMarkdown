@@ -8,15 +8,13 @@
 ### @explicitHints true
 ### @flyoutOnly 0
 
-# Activity 2 – Mapping everything out.
+# Activity 2 – すべてをマッピングする
 
-## Step 1
-In this Activity, you have to combine all of the pictures you have taken into **one** large `||datasets: dataset||`. All of this data will then be compiled and
-shown as a large map of the forest. First use a `||datasets: make dataset||` coding block inside of a `||loops: on start||` coding block. 
+## ステップ 1
+このアクティビティでは、撮影したすべての写真を**1つ**の大きな`||datasets: データセット||`に統合する必要があります。このデータはすべてコンパイルされ、森林の大きな地図として表示されます。まず、`||loops: 最初だけ||`コーディングブロックの中に`||datasets: データセットを作成||`コーディングブロックを使用してください。
 
-## Step 2
-Place **all** of the data taken from the **three** locations inside the `||datasets: make dataset||` coding block. The `||Input: picture data||` 
-coding blocks are located in the in the `||Input: INPUT||` tab. 
+## ステップ 2
+**3つ**の場所から取得したデータを**すべて**`||datasets: データセットを作成||`コーディングブロックの中に配置してください。`||Input: 画像データ||`コーディングブロックは`||Input: インプット||`タブ内にあります。
 
 ```ghost
 Input.location1PictureData_MTB()
@@ -26,5 +24,5 @@ Datasets.setOfData_MTB(function() {})
 ```
 
 ```package
-aicustomblocks=github:fountainstudios/AICustomBlocks
+aicustomblocks=github:hachioji-sakura/AICustomBlocks
 ```
