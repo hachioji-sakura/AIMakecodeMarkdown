@@ -1,0 +1,41 @@
+{
+    "name": "aimakecodemarkdown",
+    "version": "1.1.4",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "OceanObservations_ACT1.md",
+        "OceanObservations_ACT2.md",
+        "OceanObservations_ACT3.md",
+        "MappingTerrain_ACT1.md",
+        "MappingTerrain_ACT4.md",
+        "noCodingRequired.md",
+        "tutorialDone.md",
+        "OceanObservations_ACT4.md",
+        "MappingTerrain_ACT2B.md",
+        "MappingTerrain_ACT3B.md",
+        "PatternRecognition_ACT1.md",
+        "PatternRecognition_ACT2.md",
+        "PatternRecognition_ACT3.md",
+        "PatternRecognition_ACT4.md",
+        "SustainableFarming_ACT1.md",
+        "SustainableFarming_ACT2.md",
+        "SustainableFarming_ACT3.md",
+        "SustainableFarming_ACT4.md",
+        "WaterQuality_ACT1.md",
+        "WaterQuality_ACT2.md",
+        "WaterQuality_ACT3.md",
+        "WaterQuality_ACT4.md"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "1.5.50",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
